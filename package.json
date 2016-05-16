@@ -1,0 +1,31 @@
+{
+  "name": "inventory-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "prod": "webpack -p"
+  },
+  "author": "Serge Nasr",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "backbone.localstorage": "^1.1.16",
+    "jquery": "^2.2.3",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.7.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
